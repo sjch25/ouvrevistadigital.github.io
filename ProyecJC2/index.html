@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUV - Revista Escolar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>U.E. OSCAR UNZAGA DE LA VEGA <br> Revista Escolar</h1>
+        <p>Revista Escolar - Noticias, Actividades y Logros</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio" onclick="mostrarSeccion('inicio')"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#historia" onclick="mostrarSeccion('historia')"><i class="fas fa-book"></i> Historia</a></li>
+            <li><a href="#infraestructura" onclick="mostrarSeccion('infraestructura')"><i class="fas fa-building"></i> Infraestructura</a></li>
+            <li><a href="#estudiantes" onclick="mostrarSeccion('estudiantes')"><i class="fas fa-users"></i> Reglamento U.E.</a></li>
+            <li><a href="#contactos" onclick="mostrarSeccion('contactos')"><i class="fas fa-phone"></i> Contactos</a></li>
+            <li><a href="#ayuda" onclick="mostrarSeccion('ayuda')"><i class="fas fa-question-circle"></i> Ayuda</a></li>
+            <li><a href="#acerca" onclick="mostrarSeccion('acerca')"><i class="fas fa-info-circle"></i> Acerca de Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a la Revista de la U.E. Oscar Unzaga de la vega</h2>
+            <p>Aquí encontrarás las últimas noticias, actividades y logros de nuestro colegio. ¡Mantente informado sobre nuestra comunidad educativa!</p>
+
+            <video class="hero-video" controls poster="imagenes/1.jpg">
+                <source src="videos/presentacion.mp4" type="video/mp4">
+                Tu navegador no soporta videos. <a href="video-inicio.mp4">Descarga el video</a>.
+            </video>
+            <p style="text-align: center; font-style: italic;">Video: Ensayo de la banda.</p>
+            <br><br>
+<!--
+            <div class="slider">
+                <div class="slides" id="slides">
+                    <div class="slide">
+                        <img src="imagenes/1.jpg" alt="Concurso de bandas">
+                        <div class="slide-content">
+                            <h3>Estudiantes Ganadores en Concurso Departamental de bandas</h3>
+                            <p>¡Felicitaciones por su logro académico!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ -->           
+            <div class="noticia">
+                <img src="imagenes/4.jpg">
+                <div class="noticia-content">
+                    <h3>activida de de venta de recaudación de fondos para la U.E </h3>
+                    <p><strong>Fecha:</strong> 27 de agosto de 2024</p>
+                    <p>gracias a la directora eldy julio que con sus actividades se pudo recaudar fondo para la U.E con desayunos dia a dia en tiempos de frios </p>
+                </div>
+            </div>
+            
+            <div class="noticia">
+                <img src="imagenes/1.jpg">
+                <div class="noticia-content">
+                    <h3>Actividad Extracurricular: Día del Deporte</h3>
+                    <p><strong>Fecha:</strong> 20 de octubre de 2023</p>
+                    <p>El colegio organizó un día lleno de deportes y diversión. Todos los participantes recibieron medallas de participación y compartieron momentos inolvidables.</p>
+                </div>
+            </div>
+            
+            <div class="noticia">
+                <img src="imagenes/8.jpg">
+                <div class="noticia-content">
+                    <h3>la gran feria de venta en la U.E para el matenimiento de la dirección</h3>
+                    <p><strong>Fecha:</strong> 18 de junio de 2023</p>
+                    <p>En los planes de la directora se puso en planes la venta de objetos que traigan los estudiantes de sus casa para asi poder venderlos y tubimos visitas de los padres</p>
+                </div>
+            </div>
+
+            <div class="noticia">
+                <img src="imagenes/9.jpg">
+                <div class="noticia-content">
+                    <h3>REUNIÓN DEL GOBIERNO ESCOLAR:El debate de todos los precidentes</h3>
+                    <p><strong>Fecha:</strong> 22 de septiembre de 2024</p>
+                    <p>se llevo acabo en la U.E el debate de todos los precidentes dando cada uno sus propuestas para llevar por delante a la U.E en cualquier actividad con la distrital</p>
+                </div>
+            </div>
+
+                </div>
+            </div>              
+        </section>
+
+        <section id="historia">
+            <h2>Historia del Colegio</h2>
+            <img src="imagenes/2.jpg" class="section-image">
+            <p>Fundado en 1980, el Colegio Ejemplo ha sido un pilar en la educación local. Comenzamos con solo 50 estudiantes y hemos crecido hasta albergar a más de 500. Nuestra misión es formar líderes del mañana con valores sólidos.</p>
+            <p>A lo largo de los años, hemos logrado certificaciones nacionales y participado en proyectos internacionales, evolucionando siempre con las necesidades de nuestra comunidad.</p>
+
+            <img src="imagenes/10.jpg" class="section-image">
+            <p>En el año 1975, se obtuvo el terreno de 150mt2 para la construccion de la unidad educativa con todo esfuerso se logro levantar y el cimienzo del relleno de las sanjas </p>
+
+        </section>
+
+        <section id="infraestructura">
+            <h2>Infraestructura</h2>
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Aulas modernas" class="section-image">
+            <p>Nuestro campus cuenta con aulas modernas equipadas con tecnología de vanguardia, laboratorios de ciencias, biblioteca digital y campos deportivos. Recientemente, inauguramos un nuevo auditorio con capacidad para 300 personas.</p>
+            <p>Todo está diseñado para fomentar un ambiente de aprendizaje seguro, inclusivo y estimulante.</p>
+        </section>
+
+        <section id="estudiantes">
+            <h2>Estudiantes</h2>
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Grupo de estudiantes" class="section-image">
+            <h2>REGLAMENTO INTERNO ESTUDIANTIL DE LA UNIDAD EDUCATIVA</h2> 
+            <h2>"OSCAR UNZAGA DE LA VEGA"</h2> 
+            <P>RESPECTO POR LA NORMATIVA</P><br>
+
+            <P>El presente reglamento interno de aplicación para las/los estudiantes de la unidad educativa “Oscar Unzaga De La Vega” tiene como base, la constitución política del estado, la 070 Avelino siñani y e Lizardo Pérez y acuerdo con los padres de familia, por lo tanto, todos/as estudiantes deben respetar y cumplir las normativas institucionales, valorar y cuidar vida como el don más sagrado.</P><br>
+            <p> DEBERES DE LA/EL ESTUDIANTES</p><br> 
+1.  Respetar las autoridades personal docentes, administrativo, de servicio y compañeros<br>
+2.  Cuidar el inmobiliario y los ambientes de la U.E.<br>
+3.  Asistir con puntualidad y regularidad a clases de acuerdo al calendario y horario establecido por la U.E.<br>
+4.  Asistir con el uniforme consensuado por los padres de familia<br> 
+<br>
+<p>a)  UNIFORME DE DIARIO DEL NIVEL INICIAL COMUNITARIO PRODUCTIVO EN FAMILIA ESCOLARISADA:</p><br> 
+<br>
+•   Niñas y niños deben asistir a clases con el uniforme propuesto por la maestra y los padres de familia.<br> 
+•   Niña: Falda color plomo y camisa o polera blanca<br> 
+•   Niños: pantalón plomo, camisa o polera blanca<br>
+<br> 
+<p>b)  UNIFORME DE DIARIO DEL NIVEL PRIMARIO COMUNITARIO VOCACIONAL Y NIVEL SEGUNDARIO COMUNITARIO PRODUCTIVA:</p> <br>
+<br>
+•   Los estudiantes deben asistir con el uniforme oficial del colegio.<br> 
+•   Niñas y señoritas: Blusa blanca o polera y falda plomo o pantalón debajo de la rodilla.<br> 
+•   Niños y jóvenes: camisa blanca o polera y pantalón plomo de vestir solo en caso de frio el uniforme es flexible con el pantalón del colegio oficial<br>
+<br> 
+c)  UNIFORME DE EDUCACION FISICA PARA NIÑOS, NIÑAS, SEÑORITAS Y JOVENES DE TODOS LOS NIVELES:<br>
+<br>
+•   Todo estudiante debe aportar el uniforme correspondiente y asistir higiénicamente a clases.<br> 
+•   Polera blanca, short y medias blancas y zapatillas adecuada<br>
+<br>
+DERECHOS DE LA/EL ESTUDIANTE:<br>
+<br>
+1.  Ser respetado y considerado según los derechos establecido por leyes constitucionales y normativa vigente.<br>
+2.  Recibir orientación, apoyo adecuado y un trato digno, respetuoso, tolerante y justo sin discriminación alguna, razones de, cultura, genero, sexo, idioma, región y otros.<br>
+3.  Contar con una organización estudiantil.<br>
+4.  Recibir una educación integral con valores humano y sólida preparación académica impartidas por profesores competentes.<br>
+5.  Ser apoyado/a y acompañado/a en su proceso de aprendizaje.<br>
+6.  Utiliza las instalaciones inmobiliario de la U.E. DE ACUERDO A NORMAS EDUCATIUVA.<br>
+7.  Ser sancionado con conocimiento del consejo educativo comunitario, comisión disciplina y dirección en caso de cometer una falta leve, grave o muy grave.</P><br>
+
+        <h2> REGIMEN DISCIPLINARIO</h2>  
+<p>DE LA DISCIPLINA.</p>
+<br>
+La disciplina es el orden son las bases primordiales de nuestra unidad educativa ya que los responsables son los funcionarios administrativos, maestro/as padres/madres de familias y/o apoderados de las/os estudiantes.<br>
+<br>
+<p>TIPIFICACION DE FALTAS:</p>
+<br>
+• <p>  FALTAS LEVES DE LA/EL ESTUDIANTE</p>
+<br>
+a)  No portar el cuaderno de aviso o agenda escolar.<br>
+b)  Causar desorden dentro el aula<br>.
+c)  Acumular más de tres atrasos.<br>
+d)  Ingresar al aula que no le corresponda sin autorización.<br>
+e)  Comprar, comer y beber alimentos durante las clases.<br> 
+f)  Desperdiciar el agua en los grifos ensuciando los ambientes del colegio.<br>
+<p>SANCIONES A LAS FALTAS LEVES DE LA/EL ESTUDIANTES:</p>
+<br>
+a)  Llamada de atención verbal por parte del docente.<br> 
+b)  Reflexión por parte del maestro.<br> 
+c)  Llamada de atención por dirección.<br> 
+<br>
+<p>FALTAS GRAVES DEL/LA ESTUDIANTES</p>
+<br> 
+a)  Esta prohibido salir de la U.E. durante el periodo de clases.<br> 
+b)  Los estudiantes deben evitar todo tipo de violencia, verbal, física, psicológica, sexual por motivos racistas discriminatorias hacia sus compañeros, profesores y todo servidor público dentro de la U.E.<br>
+c)  Uso inadecuado de los medios tecnológicos en el ambiente educativo.<br> 
+d)  Uso de un medio tecnológico sin requerimiento del maestro.<br> 
+e)  Realizar grafitis dentro del ambiente educativo en paredes, pisos, techos, puertas, mesas, pizarras, etc.<br> 
+f)  Asistir de manera inadecuada a la unidad educativa tanto varones como mujeres.<br> 
+g)  Asistir de manera natural y con aseo de higiene correspondiente.<br>
+<br> 
+   <p>SANCIONES A FALTAQ GRAVES DE LA/EL ESTUDIANTE</p>
+   <br>
+De acuerdo al tipo de frecuencia de la falta cometida se dispondrá las siguientes sanciones.<br>
+a)  Compromiso escrito de la/el estudiante de no reincidir de las faltas, en presencia de sus padres o tutor encargado.<br>
+b)  Suspensivo de uno a cinco días de clases, de acuerdo a la edad y gravedad de la falta.<br>
+c)  A partir del quinto día de retraso los docentes valoraran en la dimensión del ser y decidir.<br>
+d)  Suspensión de clases con trabajo comunitarios, en caso de reincidir de falta graves.<br>
+e)  En caso de causar daño a la infraestructura de la U.E. él/ella estudiante debe hacer cargo de su reparación u resarcimiento, en lapso de 3 días.<br>
+f)  De los medios tecnológico que fueron usado contraviniendo los establecido anterior se decomisaran para luego ser devuelto de acuerdo a los siguientes criterios:<br>
+-   La primera vez, se devolverá al estudiante, después de 1|semana<br>
+-   La segunda vez, el padre o madre de familia, después de 2 semanas<br>
+-   La tercera vez, será retenido hasta fin de año y se devolverá al padre o madre de familia el último día de clases (el padre o madre de familia podrá recoger el aparato tecnológico con una suma de 10 bs).<br>
+<br>
+FALTA MUY GRAVES DE LA/EL ESTUDIANTE<br>
+<br>
+Son falta muy graves las que afectan a los estudiantes en el aspecto psicológico, físico e integridad moral, y a institución educativa tales como:<br>
+a)  Reincidir en las faltas graves<br> 
+b)  Robo o hurto de objetos de valor al interior o fuera de la U.E.<br>
+c)  Pertenecer o formar parte de pandilla o grupo delictivo.<br>
+d)  Acoso sexual entre estudiante.<br>
+e)  Comprar, venta, tenencia y/o consumo de bebida alcohólica, cigarro, estupefaciente y/o sustancia controlada, en el interior del establecimiento.<br>
+f)  Tenencia de arma.<br>
+g)  Crear, o publicar material que atente contra la imagen y/o dignidad de las personas o de la institución, materiales pornográficos difundido a través de página web, blogs, redes de sociales y otros medios.<br>
+<br>
+SENSACIONES A LAS FALTAS MUY GRAVES DE LA/EL ESTUDIANTES<br>
+<br>
+Una vez comprobado el/los/echo y circunstancia en las que se cometieron este tipo de falta, se procederá norma vigente (RETIRO DEFINITIVO) del/la estudiante. Elaborando un informe hacia las autoridades educativas pertinente de la U.E.<br>
+-   En caso de que la falta tuviera tipificadas con delitos de acuerdo a la ley, se precederá a comunicar, informe y solicitar la intervención, de las autoridades pertinentes a nuestra comunidad.<br>
+<br>
+NOTA ACLARATORIA<br>
+<br> 
+Se recomienda al os estudiantes traer teléfonos celulares, joyas u objetos de valor ya que el colegio9 no se responsabiliza de las pérdidas de los mismo.<br>
+                         <h2>ACTIVIDAEDES A REALIZAR</h2>
+   <br>                      
+A)  Dar a conocer al reglamento interno de la u unidad educativa a los profesores socializar al reglamento interno sobre la disciplina acto mal ayuda de cada tutor de diferentes aulas<br> 
+B)  Implementación de un libro negro de estudiantes con faltas leves, graves y muy graves.<br>
+C)  Socializar el reglamento interno de la unidad educativa con los padres de familia.<br>
+D)  Controlar en la puerta principal el uniforme correspondiente en nuestra unidad educativa (con el apoyo de la ‘Proción y pre promoción. Implementación y una brigada de seguridad estudiantil) (promoción-pre promoción).<br>
+E)  Hacer énfasis en cada acto cívico sobre actos disciplinario y las sanciones para conocimiento general de los estudiantes.<br>
+F)  Hablar con los estudiantes que tienen problema de disciplina, entre ellos vestuarios, vocabulario, violencia, bullin ente otros.<br>
+G)  Implementar en dirección un libro de actas para estudiantes disciplinados.<br>
+H)  Solicitare, al SLIM o policía para impartir charlas para los padres de familia y estudiantes sobres temas relacionados con la conducta y violencia familiar.<br>
+I)  Mostrar el respecto en las diferentes actividades en la que participe dentro y fuera del establecimiento.<br>
+J)  Implementación de cajitas de celulares o por curso.<br>
+<br>
+NIVEL PROMARIO<br>
+<br>
+Queda totalmente prohibido el uso de aparatos tecnológicos. (cada maestro tutor de estar encargado de controlar a sus estudiantes que no deben portar artefacto de valor y comunicar a los padres de familia para recibir el apoyo desde casa.<br>
+  <br>
+NIVEL SECUNDARIO<br>
+<br>
+Queda totalmente prohibido el uso de celulares en clases, solo en caso de que el maestro trabaje haciendo uso de los celulares, pueden los estudiantes proceder hacer uso del mismo.<br>
+ <br>
+COMISION DISIPLINARIA<br>
+<br>
+Transitara los cursos en cualquier momento para serle respectivo control del uso de la cajita de celulares. Los estudiantes que sean encontrados haciendo uso del celular sin consentimiento del maestro, el aparto tecnológico será descamisado por 1 semana por primera vez, en caso de reincidió se decomisara por 3 semanas y por tercera vez se decomisara hasta fin de año.<br>
+Los maestros deben apoyan con el control de los celulares, en caso de decomiso deben entregar a la comisión disciplinaria.<br>
+K)  ESPACIO DE REFLECION a primera hora de calces cada maestro cada maestro, los días miércoles y viernes, deben tocar temas de valores, violencia psicológica y física, bullen, violencia contra la mujer, derechos y deberes de los niños, niñas y adolescentes, durante 10min etc.<br>
+L)  Cada maestro está obligado a ser conocer si observa casos de violencia verbal, psicológicas físicas en primera estancia dentro y fuera del aula.<br>
+M)  Se recomienda a cada maestro ser estricto en sus horas de clases en caso de indisciplina de los estudiantes para incentivar un entorno respetuoso entre estudiantes y maestro.<br>
+N)  Se le pide cada maestro respetar el horario de salida de clases, para mejor control de los padres de sus hijos/as.<br>
+O)  Loa maestros deben informar al grupo de WHATSAPP cuando los estudiantes salen de clases de marera anticipada, para que los tutores distribuyan la información a los padres de familia para un mejor control de los padres hacia sus hijos/as.<br>
+P)  Acer uso correcto del armario para maestro.<br> 
+            </ul>
+        </section>
+
+        <section id="contactos">
+            <h2>Contactos</h2>
+            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Ubicación del colegio" class="section-image">
+            <p><strong>Dirección:</strong> Calle Escuela 123, Ciudad Ejemplo, CP 12345</p>
+            <p><strong>Teléfono:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@colegioejemplo.edu</p>
+            <p><strong>secretaria:</strong>(677) 358-830</p>
+            <p><strong>directora:</strong>(765) 964-958</p>
+
+            </form>
+        </section>
+
+        <section id="ayuda">
+            <h2>Ayuda</h2>
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Soporte educativo" class="section-image">
+            <h3>Preguntas Frecuentes (FAQ)</h3>
+            <p><strong>¿Cómo me inscribo?</strong> Visita la sección de estudiantes o contáctanos directamente para un tour guiado.</p>
+            <p><strong>¿Cuáles son los horarios?</strong> De lunes a viernes, 8:00 AM a 3:00 PM. Actividades extracurriculares hasta las 5:00 PM.</p>
+            <p><strong>Problemas técnicos?</strong> Envía un email a soporte@colegioejemplo.edu o usa<br>
+            <br> 
+
+🆘 AYUDA<br>
+<br>
+
+Bienvenido a la sección de Ayuda de nuestra revista escolar digital. Aquí encontrarás información útil para orientarte y aprovechar al máximo todo el contenido que hemos preparado para ti.<br>
+<br>
+📖 ¿Cómo usar la revista?<br>
+<br>
+Navega por la revista utilizando el índice principal o los botones de navegación ubicados en la parte superior o inferior de las páginas.
+Puedes hacer clic sobre los títulos, imágenes o enlaces para acceder directamente a los artículos, entrevistas o secciones especiales.
+Si deseas regresar al inicio, selecciona el botón o ícono de “Inicio” en cualquier página.<br>
+<br>
+❓ Preguntas frecuentes<br>
+<br>
+¿Cada cuánto se publica la revista?
+Publicamos una nueva edición de forma periódica con temas educativos, culturales y de interés para toda la comunidad escolar.<br>
+<br>
+¿Puedo enviar mis ideas o participar en la revista?
+¡Por supuesto! Si deseas colaborar con artículos, dibujos, fotos o sugerencias, comunícate con el equipo editorial.<br>
+<br>
+¿Dónde puedo leer las ediciones anteriores?
+Puedes acceder a nuestras ediciones anteriores desde la sección “Ediciones pasadas” o en los enlaces compartidos por el colegio.<br>
+<br>
+📬 Contacto y soporte<br>
+<br>
+Si tienes dudas, comentarios o sugerencias, puedes comunicarte con nosotros a través de:
+📧 revistaescolar@gmail.com<br>
+<br>
+📱 Instagram / Facebook: @revista_escolar<br>
+<br>
+🧾 Créditos<br>
+<br>
+Equipo de redacción y diseño: [JULIO CESAR MAERTEN ROJAS].
+Institución educativa: [OSACR UNZAGA DE LA VEGA].
+Agradecemos a nuestros profesores y compañeros por su apoyo en la creación de este proyecto digital.<br>
+<br>
+⚖️ Derechos<br>
+<br>
+El contenido de esta revista pertenece a sus autores y colaboradores. Se permite su difusión citando la fuente y respetando los créditos correspondientes<br>
+
+            </p>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Nosotros</h2>
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Equipo docente" class="section-image">
+            <p>Somos un equipo dedicado a la educación integral. Nuestro personal incluye profesores certificados y administradores experimentados. Valoramos la diversidad y el crecimiento personal de cada estudiante.</p>
+            <p><strong>Misión:</strong> Educar con excelencia y empatía. <br><strong>Visión:</strong> Ser líderes en innovación educativa en nuestra región.<br>
+            <p><strong>DESCIPCIÓ:</strong>Describir los objetivos y procesos de la unidad educativa<br>
+            <p><strong>creación:</strong>el objetivo de crear y poder hacer la revista escolar digital<br></p>  
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; U.E. Oscar Unzaga de la Vega 2025.<br>by Julio Cesar Maertens</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
